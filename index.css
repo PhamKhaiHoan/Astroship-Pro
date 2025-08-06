@@ -23,19 +23,19 @@
   right: 33.3333%;
   top: 4rem;
 }
-.container {
+.testimonials .container {
   text-align: center;
   margin: 20px auto;
 }
-.container span {
+.testimonials .container span {
   font-weight: 700;
   font-size: 3rem;
   line-height: 1rem;
 }
-.container .title {
+.testimonials .container .title {
   color: #4e47e3;
 }
-.container p {
+.testimonials .container p {
   font-size: 1.125rem;
   margin-top: 1rem;
   margin-bottom: 3rem;
@@ -46,7 +46,7 @@
   padding: 20px;
   overflow: hidden;
 }
-.items {
+.testimonials .items {
   border-radius: 1rem;
   position: relative;
   padding: 2rem;
@@ -63,35 +63,35 @@
   transition: all 0.2s ease-in-out;
   flex-shrink: 0;
 }
-.items:hover {
+.testimonials .items:hover {
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
-.items:first-of-type {
+.testimonials .items:first-of-type {
   scroll-margin: 2.5rem;
 }
-.items p {
+.testimonials .items p {
   font-size: 25px;
   text-wrap: balance;
 }
-.items img {
+.testimonials .items img {
   border-radius: 9999px;
   width: 3rem;
   height: 3rem;
   object-fit: cover;
   background-color: #f1f5f9;
 }
-.items .avt_infor {
+.testimonials .items .avt_infor {
   display: flex;
   align-items: center;
   gap: 0.75rem;
   margin-top: 2.5rem;
 }
-.items .avt_infor h2 {
+.testimonials .items .avt_infor h2 {
   font-size: 1.125rem;
   font-weight: 500;
   color: #1e293b;
 }
-.items .avt_infor p {
+.testimonials .items .avt_infor p {
   font-size: 0.875rem;
   color: #475569;
 }
