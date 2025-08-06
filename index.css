@@ -1,11 +1,15 @@
-* {
-    /* margin: 0; */
-    /* padding: 0; */
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
-}
 
-/* 1.Start Navbar + Hero Hoàng Anh */
+html, body { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+ font-family: "Inter", sans-serif; 
+} 
+  /* 1.Start Navbar + Hero Hoàng Anh */ 
+#dropdownIcon {
+  transition: transform 0.1s ease-in-out;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900&display=swap');
 
 /* End Navbar + Hero Hoàng Anh */
 
