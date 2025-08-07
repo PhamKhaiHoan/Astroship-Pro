@@ -1,11 +1,15 @@
-* {
-    /* margin: 0; */
-    /* padding: 0; */
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
-}
 
-/* 1.Start Navbar + Hero Hoàng Anh */
+html, body { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+ font-family: "Inter", sans-serif; 
+} 
+  /* 1.Start Navbar + Hero Hoàng Anh */ 
+#dropdownIcon {
+  transition: transform 0.1s ease-in-out;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900&display=swap');
 
 /* End Navbar + Hero Hoàng Anh */
 
@@ -14,7 +18,7 @@
 /* End Features Section Lê Trung Dũng   */
 
 /* 3.Testimonials Section	Khải Hoàn */
-/* .bg-color {
+.testimonials .bg-color {
   position: absolute;
   width: 24rem;
   height: 24rem;
@@ -22,91 +26,83 @@
   z-index: -10;
   background: radial-gradient(circle, #e0e7ff 0%, transparent 100%);
   right: 33.3333%;
-  top: 4rem;
-} */
-.container {
-    text-align: center;
-    margin: 20px auto;
+  top: 12rem;
 }
-
-.container span {
-    font-weight: 700;
-    font-size: 3rem;
-    line-height: 1rem;
+.testimonials {
+  padding: 8rem 0;
+  position: relative;
 }
-
-.container .title {
-    color: #4e47e3;
+.testimonials .container {
+  text-align: center;
+  margin: 20px auto;
 }
-
-.container p {
-    font-size: 1.125rem;
-    margin-top: 1rem;
-    margin-bottom: 3rem;
-    color: #475569;
-    text-align: center;
+.testimonials .container span {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1rem;
 }
-
-/* .testimonials-slider {
-    padding: 20px;
-    overflow: hidden;
-} */
-
-.items {
-    border-radius: 1rem;
-    position: relative;
-    padding: 2rem;
-    background-color: rgba(249, 250, 251, 0.6);
-    backdrop-filter: blur(12px);
-    border: 1px solid rgba(229, 231, 235, 0.5);
-    border-color: rgba(229, 231, 235, 0.5);
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-    max-width: 28rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 20px;
-    transition: all 0.2s ease-in-out;
-    flex-shrink: 0;
+.testimonials .container .title {
+  color: #4e47e3;
 }
-
-.items:hover {
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+.testimonials .container p {
+  font-size: 1.125rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  color: #475569;
+  text-align: center;
 }
-
-.items:first-of-type {
-    scroll-margin: 2.5rem;
+.testimonials-slider {
+  padding: 20px;
+  overflow: hidden;
 }
-
-.items p {
-    font-size: 25px;
-    text-wrap: balance;
+.testimonials .items {
+  border-radius: 1rem;
+  position: relative;
+  padding: 2rem;
+  background-color: rgba(249, 250, 251, 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(229, 231, 235, 0.5);
+  border-color: rgba(229, 231, 235, 0.5);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  max-width: 28rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+  transition: all 0.2s ease-in-out;
+  flex-shrink: 0;
 }
-
-.items img {
-    border-radius: 9999px;
-    width: 3rem;
-    height: 3rem;
-    object-fit: cover;
-    background-color: #f1f5f9;
+.testimonials .items:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
-
-.items .avt_infor {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    margin-top: 2.5rem;
+.testimonials .items:first-of-type {
+  scroll-margin: 2.5rem;
 }
-
-.items .avt_infor h2 {
-    font-size: 1.125rem;
-    font-weight: 500;
-    color: #1e293b;
+.testimonials .items p {
+  font-size: 25px;
+  text-wrap: balance;
 }
-
-.items .avt_infor p {
-    font-size: 0.875rem;
-    color: #475569;
+.testimonials .items img {
+  border-radius: 9999px;
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+  background-color: #f1f5f9;
+}
+.testimonials .items .avt_infor {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 2.5rem;
+}
+.testimonials .items .avt_infor h2 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #1e293b;
+}
+.testimonials .items .avt_infor p {
+  font-size: 0.875rem;
+  color: #475569;
 }
 
 .tutorials .contents span {
@@ -128,6 +124,7 @@
 .tutorials .contents {
     text-align: center;
     margin: 20px auto;
+    display: block;
 }
 
 .tutorials .datas .data-items {
