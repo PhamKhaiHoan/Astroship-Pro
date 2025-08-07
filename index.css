@@ -30,6 +30,7 @@ html, body {
 }
 .testimonials {
   padding: 8rem 0;
+  padding-bottom: 0;
   position: relative;
 }
 .testimonials .container {
@@ -123,7 +124,7 @@ html, body {
 
 .tutorials .contents {
     text-align: center;
-    margin: 20px auto;
+    margin: 0px auto auto auto;
     display: block;
 }
 
