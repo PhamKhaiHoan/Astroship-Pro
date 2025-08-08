@@ -60,7 +60,7 @@ body {
 }
 
 .testimonials-slider {
-  /* padding: 20px; */
+  padding: 20px;
   padding: 1.25rem;
   overflow: hidden;
 }
@@ -68,7 +68,7 @@ body {
 .testimonials .items {
   border-radius: 1rem;
   position: relative;
-  /* padding: 2rem; */
+  padding: 2rem;
   padding: 1.25rem;
   background-color: rgba(249, 250, 251, 0.6);
   backdrop-filter: blur(12px);
@@ -82,6 +82,7 @@ body {
   margin: 20px;
   transition: all 0.2s ease-in-out;
   flex-shrink: 0;
+  height: 400px;
 }
 
 .testimonials .items:hover {
@@ -93,7 +94,7 @@ body {
 }
 
 .testimonials .items p {
-  /* font-size: 25px; */
+  font-size: 25px;
   font-size: 1.25rem;
   text-wrap: balance;
 }
@@ -141,7 +142,7 @@ body {
 }
 
 .tutorials .contents {
-  /* text-align: center; */
+  text-align: center;
   margin: 20px auto;
   display: block;
 }
@@ -161,7 +162,7 @@ body {
 .tutorials .datas {
   display: grid;
   gap: 2rem;
-  /* margin: 4rem 7%; */
+  margin: 4rem 7%;
   margin-top: 4rem;
   grid-template-columns: 1fr;
 
@@ -229,7 +230,7 @@ body {
 }
 
 .tutorials {
-  /* margin: 8rem 0px; */
+  margin: 8rem 0px;
   margin: auto;
   margin-top: 6rem;
 }
