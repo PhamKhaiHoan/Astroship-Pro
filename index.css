@@ -1,14 +1,16 @@
-
-html, body { 
+html,
+body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; 
- font-family: "Inter", sans-serif; 
-} 
-  /* 1.Start Navbar + Hero Hoàng Anh */ 
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/* 1.Start Navbar + Hero Hoàng Anh */
 #dropdownIcon {
   transition: transform 0.1s ease-in-out;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900&display=swap');
 
 /* End Navbar + Hero Hoàng Anh */
@@ -28,22 +30,27 @@ html, body {
   right: 33.3333%;
   top: 12rem;
 }
+
 .testimonials {
   padding: 8rem 0;
   position: relative;
 }
+
 .testimonials .container {
   text-align: center;
   margin: 20px auto;
 }
+
 .testimonials .container span {
   font-weight: 700;
   font-size: 3rem;
   line-height: 1rem;
 }
+
 .testimonials .container .title {
   color: #4e47e3;
 }
+
 .testimonials .container p {
   font-size: 1.125rem;
   margin-top: 1rem;
@@ -51,14 +58,18 @@ html, body {
   color: #475569;
   text-align: center;
 }
+
 .testimonials-slider {
-  padding: 20px;
+  /* padding: 20px; */
+  padding: 1.25rem;
   overflow: hidden;
 }
+
 .testimonials .items {
   border-radius: 1rem;
   position: relative;
-  padding: 2rem;
+  /* padding: 2rem; */
+  padding: 1.25rem;
   background-color: rgba(249, 250, 251, 0.6);
   backdrop-filter: blur(12px);
   border: 1px solid rgba(229, 231, 235, 0.5);
@@ -72,16 +83,21 @@ html, body {
   transition: all 0.2s ease-in-out;
   flex-shrink: 0;
 }
+
 .testimonials .items:hover {
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
+
 .testimonials .items:first-of-type {
   scroll-margin: 2.5rem;
 }
+
 .testimonials .items p {
-  font-size: 25px;
+  /* font-size: 25px; */
+  font-size: 1.25rem;
   text-wrap: balance;
 }
+
 .testimonials .items img {
   border-radius: 9999px;
   width: 3rem;
@@ -89,147 +105,153 @@ html, body {
   object-fit: cover;
   background-color: #f1f5f9;
 }
+
 .testimonials .items .avt_infor {
   display: flex;
   align-items: center;
   gap: 0.75rem;
   margin-top: 2.5rem;
 }
+
 .testimonials .items .avt_infor h2 {
   font-size: 1.125rem;
   font-weight: 500;
   color: #1e293b;
 }
+
 .testimonials .items .avt_infor p {
   font-size: 0.875rem;
   color: #475569;
 }
 
 .tutorials .contents span {
-    font-weight: 700;
-    font-size: 3rem;
-    line-height: 1rem;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1rem;
 }
 
 .tutorials .contents .title {
-    color: #4e47e3;
+  color: #4e47e3;
 }
 
 .tutorials .contents p {
-    font-size: 1.125rem;
-    margin-top: 1rem;
-    color: #475569;
+  font-size: 1.125rem;
+  margin-top: 1rem;
+  color: #475569;
 }
 
 .tutorials .contents {
-    text-align: center;
-    margin: 20px auto;
-    display: block;
+  /* text-align: center; */
+  margin: 20px auto;
+  display: block;
 }
 
 .tutorials .datas .data-items {
-    display: flex;
-    flex-direction: column;
-    background: #f7f8fc;
-    padding: 1.5rem;
-    border-radius: 1rem;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-    transition: box-shadow 0.2s ease;
-    border: #777b8117 1px solid;
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #f7f8fc;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.2s ease;
+  border: #777b8117 1px solid;
+  height: 100%;
 }
 
 .tutorials .datas {
-    display: grid;
-    gap: 2rem;
-    margin: 4rem 7%;
-    grid-template-columns: 1fr;
+  display: grid;
+  gap: 2rem;
+  /* margin: 4rem 7%; */
+  margin-top: 4rem;
+  grid-template-columns: 1fr;
 
 }
 
 .tutorials .datas .data-items:hover {
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
 
 .tutorials .datas .data-items img {
-    width: 100%;
-    height: auto;
-    margin-bottom: auto;
+  width: 100%;
+  height: auto;
+  margin-bottom: auto;
 }
 
 .tutorials .data-items .purple {
-    background-color: #e9d5ff;
-    border: 1px solid #c084fc;
-    color: #9333ea;
-    border-radius: 9999px;
-    font-size: 0.75rem;
-    font-weight: 500;
-    padding: 0.25rem 0.75rem;
-    display: block;
-    max-width: fit-content;
-    margin: 15px 0;
+  background-color: #e9d5ff;
+  border: 1px solid #c084fc;
+  color: #9333ea;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.25rem 0.75rem;
+  display: block;
+  max-width: fit-content;
+  margin: 15px 0;
 }
 
 .tutorials .data-items .blue {
-    background-color: #e0e7ff;
-    border: 1px solid #c7d2fe;
-    color: #4f46e5;
-    border-radius: 9999px;
-    font-size: 0.75rem;
-    font-weight: 500;
-    padding: 4px 12px;
-    display: block;
-    width: fit-content;
-    margin: 15px 0;
+  background-color: #e0e7ff;
+  border: 1px solid #c7d2fe;
+  color: #4f46e5;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 4px 12px;
+  display: block;
+  width: fit-content;
+  margin: 15px 0;
 }
 
 .tutorials .data-items .gray {
-    background-color: #f3f4f6;
-    border: 1px solid #d1d5db;
-    color: #000000;
-    border-radius: 9999px;
-    font-size: 0.75rem;
-    font-weight: 500;
-    padding: 4px 12px;
-    display: block;
-    width: fit-content;
-    margin: 15px 0;
+  background-color: #f3f4f6;
+  border: 1px solid #d1d5db;
+  color: #000000;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 4px 12px;
+  display: block;
+  width: fit-content;
+  margin: 15px 0;
 }
 
 .tutorials .data-items .titles {
-    font-size: 1.25rem;
-    font-weight: 500;
-    margin-top: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
 }
 
 .tutorials .data-items p {
-    color: #475569;
-    margin-top: 0.5rem;
-    text-wrap: balance;
+  color: #475569;
+  margin-top: 0.5rem;
+  text-wrap: balance;
 }
 
 .tutorials {
-    margin: 8rem 0px;
+  /* margin: 8rem 0px; */
+  margin: auto;
+  margin-top: 6rem;
 }
 
 @media (min-width: 768px) {
-    .tutorials .datas {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .tutorials .datas {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (min-width: 1024px) {
-    .tutorials .datas {
-        grid-template-columns: repeat(3, 1fr);
-    }
+  .tutorials .datas {
+    grid-template-columns: repeat(3, 1fr);
+  }
 
-    .data-items-large {
-        grid-column: span 2;
-    }
+  .data-items-large {
+    grid-column: span 2;
+  }
 
-    .tutorials .data-items .titles {
-        font-size: 1.5rem;
-    }
+  .tutorials .data-items .titles {
+    font-size: 1.5rem;
+  }
 }
 
 /* End Testimonials Section Khải Hoàn */
